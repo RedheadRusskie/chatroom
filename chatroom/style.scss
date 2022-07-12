@@ -1,0 +1,38 @@
+html {
+    .container {
+        max-width: 600px;
+
+        .btn {
+            background-color: #ad40a8;
+            color: white;
+            outline: none;
+            box-shadow: none;
+        }
+
+        .btn:focus {
+            outline: none;
+        }
+
+        .username {
+            font-weight: bold;
+        }
+
+        .time {
+            font-size: 0.7rem;
+            color: #999;
+        }
+
+        .updated {
+            background-color: rgb(39, 153, 39);
+            color: white;
+        }
+
+        .btn {
+            width: 5em;
+        }
+
+        .input-group-text { 
+            width: 9em;
+        }
+    }
+}
